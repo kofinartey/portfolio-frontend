@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Dirn Invoicing",
+    "id": 1,
+    "path": "/dirn",
+    "summary": "An invoicing application to help freelancers schedule and keep track of payments. Dirn allows users to create and monitor payments while monitoring the  state of user's financial details.",
+    "links": {
+      "live": "https://dirninvoicing.vercel.app/",
+      "code": "https://github.com/kofinartey/invoice-app"
+    },
+    "stack": ["React", "Redux", "Express", "MongoDB"],
+    "description": "project description",
+    "images": {
+      "process-gif": {
+        "mobile": "/imagees/link",
+        "tablet": "/imagees/link",
+        "desktop": "/imagees/link"
+      },
+      "thumbnail": {
+        "mobile": "/images/thumnail/link",
+        "tablet": "/images/thumnail/link",
+        "desktop": "/images/invoice-app/invoice-app-main-desktop.jpg"
+      }
+    }
+  },
+  {
+    "name": "Audiophile Ecommerce",
+    "id": 2,
+    "path": "/audiophile",
+    "summary": "An ecommerce website for audio gear for real music enthusiasts. Browse through a wide collectoin of headphone, speakers and earbuds till you find one you like and place an order for it.",
+    "links": {
+      "live": "https://audiophile-ecommerce-zeta.vercel.app/",
+      "code": "https://github.com/kofinartey/audiophile-ecommerce"
+    },
+    "stack": ["React", "Redux"],
+    "description": "project description",
+    "images": {
+      "process-gif": {
+        "mobile": "/imagees/link",
+        "tablet": "/imagees/link",
+        "desktop": "/imagees/link"
+      },
+      "thumbnail": {
+        "mobile": "/images/thumnail/link",
+        "tablet": "/images/thumnail/link",
+        "desktop": "/images/audiophile/audiophile-main-desktop.jpg"
+      }
+    }
+  }
+]
