@@ -8,6 +8,7 @@ import Button from "../../components/button/Button";
 import AboutStyles from "./AboutStyles";
 import EmailOutlinedIcon from "@mui/icons-material/EmailOutlined";
 import InsertDriveFileOutlinedIcon from "@mui/icons-material/InsertDriveFileOutlined";
+import { RESUME_URL } from "../../utils/utils";
 
 function About() {
   const classes = AboutStyles();
@@ -26,11 +27,11 @@ function About() {
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}
       >
-        <h1 className={classes.heading}>About</h1>
+        <h2 className={classes.heading}>About</h2>
         <p className={classes.about__intro}>
-          Hi, again 🙂. My name is <span>Eugene Nartey Ahulu.</span> I am a
-          self-taught frontend developer with a keen interest in building
-          beautiful yet functional web applications.
+          Hi, again. My name is <span>Eugene Nartey Ahulu.</span> I am a
+          frontend developer with a keen interest in building beautiful yet
+          functional web applications.
         </p>
 
         <div className={classes.skills}>
@@ -39,12 +40,12 @@ function About() {
             experience in:
           </p>
           <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Javascript</li>
-            <li>Typescript</li>
             <li>React</li>
             <li>Redux</li>
+            <li>Javascript</li>
+            <li>Typescript</li>
+            <li>HTML</li>
+            <li>CSS</li>
             <li>Testing (Jest, React Testing Library)</li>
             <li>Nodejs (Express)</li>
             <li>MongoDB</li>
@@ -54,13 +55,14 @@ function About() {
 
         <div className={classes.skills}>
           <p>
-            In a quest to advance my skillset, I'm currently learning{" "}
-            <span>Progressive Web Apps</span> and <span>Microfrontends.</span>
-          </p>
-          <br />
-          <p>
             I believe anything can be achieved through dedication and putting in
             the hours, and I'm curious about learning new things.
+          </p>
+          <br />
+
+          <p>
+            In a quest to advance my skillset, I'm currently learning{" "}
+            <span>React Native</span> and <span>Electron.</span>
           </p>
         </div>
 
@@ -73,10 +75,7 @@ function About() {
             <Link to="/contact">
               <Button leftIcon={<EmailOutlinedIcon />}> Email</Button>
             </Link>
-            <a
-              href="https://drive.google.com/file/d/1xt0wRPGrdayPXCIfyfnjXmIEfnRo2Kkd/view?usp=sharing"
-              target="resumePage  "
-            >
+            <a href={RESUME_URL} target="resumePage  ">
               <Button leftIcon={<InsertDriveFileOutlinedIcon />}>
                 {" "}
                 Resume
