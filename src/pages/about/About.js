@@ -39,21 +39,23 @@ function About() {
             experience in:
           </p>
           <ul>
-            <li>HTML and CSS</li>
+            <li>HTML</li>
+            <li>CSS</li>
             <li>Javascript</li>
+            <li>Typescript</li>
             <li>React</li>
-            <li>Redux(with RTK)</li>
-            <li>Version Control (Git, Github)</li>
-            <li>Testing</li>
+            <li>Redux</li>
+            <li>Testing (Jest, React Testing Library)</li>
             <li>Nodejs (Express)</li>
             <li>MongoDB</li>
+            <li>Version Control (Git, Github)</li>
           </ul>
         </div>
 
         <div className={classes.skills}>
           <p>
             In a quest to advance my skillset, I'm currently learning{" "}
-            <span>Typescript</span> and <span>Progressive Web Apps.</span>
+            <span>Progressive Web Apps</span> and <span>Microfrontends.</span>
           </p>
           <br />
           <p>

@@ -11,6 +11,9 @@ import CloseIcon from "@mui/icons-material/Close";
 import WbSunnyOutlinedIcon from "@mui/icons-material/WbSunnyOutlined";
 import DarkModeOutlinedIcon from "@mui/icons-material/DarkModeOutlined";
 
+const RESUME_URL =
+  "https://drive.google.com/file/d/1DkS2xFXwPv8twtVlFlwp7bB8TupQ3Knr/view?usp=sharing";
+
 function Navbar() {
   const classes = NavbarStyles();
   const dispatch = useDispatch();
@@ -68,10 +71,7 @@ function Navbar() {
               {link}
             </Link>
           ))}
-          <a
-            href="https://drive.google.com/file/d/1xt0wRPGrdayPXCIfyfnjXmIEfnRo2Kkd/view?usp=sharing"
-            target="resumePage"
-          >
+          <a href={RESUME_URL} target="resumePage">
             /resume
           </a>
           <div
