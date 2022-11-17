@@ -13,7 +13,7 @@ function Audiophile() {
   const darkTheme = useSelector((state) => state.theme);
   const darkStyles = { backgroundColor: "#1C1F2E", color: "white" };
   return (
-    <div className={classes.Dirn} style={darkTheme ? darkStyles : {}}>
+    <div className={classes.root} style={darkTheme ? darkStyles : {}}>
       <div className={classes.wrapper}>
         <section className={classes.about}>
           <div className={classes.heading}>
@@ -25,6 +25,7 @@ function Audiophile() {
               >
                 Live
               </a>
+              {"  "}
               <a
                 href="https://github.com/kofinartey/audiophile-ecommerce"
                 target="audiophile codePage"
@@ -53,12 +54,12 @@ function Audiophile() {
           <h2>Project Purpose and Goals</h2>
           <p>
             After taking a few courses in React and Redux, I needed to be put
-            all the concepts I have learnt into practice. I picked up this
-            project from{" "}
+            all the concepts I have learnt into practice.
+            {/* I picked up this project from{" "}
             <a href="https://www.frontendmentor.io" target="frontend mentor">
               Frontend Mentor
             </a>
-            {". "}
+            {". "} */}
             The focus of this project was to get a pretty good understanding of
             the React framework, state management in Redux and to be able to
             build something quite substantial with these tools.

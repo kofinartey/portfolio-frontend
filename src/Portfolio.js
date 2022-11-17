@@ -1,13 +1,20 @@
-import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import About from "./pages/about/About";
-import Contact from "./pages/contact/Contact";
-import Home from "./pages/home/Home";
-import Projects from "./pages/projects/Projects";
-import Navbar from "./components/navbar/Navbar";
-import Dirn from "./pages/dirn/Dirn";
-import Audiophile from "./pages/audiophile/Audiophile";
-import PortfolioStyles from "./PortfolioStyles";
+import React from 'react';
+
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+} from 'react-router-dom';
+
+import Navbar from './components/navbar/Navbar';
+import About from './pages/about/About';
+import Audiophile from './pages/audiophile/Audiophile';
+import Contact from './pages/contact/Contact';
+import Dirn from './pages/dirn/Dirn';
+import Home from './pages/home/Home';
+import ProductFeedback from './pages/product_feedback/ProductFeedback';
+import Projects from './pages/projects/Projects';
+import PortfolioStyles from './PortfolioStyles';
 
 function Portfolio() {
   const classes = PortfolioStyles();
@@ -23,6 +30,11 @@ function Portfolio() {
         <Route exact path="/about" element={<About />} />
         <Route exact path="/projects/dirn" element={<Dirn />} />
         <Route exact path="/projects/audiophile" element={<Audiophile />} />
+        <Route
+          exact
+          path="/projects/product_feedback"
+          element={<ProductFeedback />}
+        />
       </Routes>
     </Router>
   );

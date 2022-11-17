@@ -1,7 +1,7 @@
 import { makeStyles } from "@mui/styles";
 
 const DirnStyles = makeStyles({
-  Dirn: {
+  root: {
     width: "100%",
     display: "flex",
     justifyContent: "center",
@@ -101,13 +101,16 @@ const DirnStyles = makeStyles({
   "@media(min-width:48rem)": {
     wrapper: {
       "& h1": {
-        fontSize: "4rem",
-      },
-      "& h2": {
         fontSize: "3rem",
       },
+      "& h2": {
+        fontSize: "2.5rem",
+      },
+      "& h3": {
+        fontSize: "2rem",
+      },
       "& p": {
-        fontSize: "1.3rem",
+        fontSize: "1.25rem",
         lineHeight: "2rem",
       },
       "& ul": {

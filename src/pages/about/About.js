@@ -46,10 +46,11 @@ function About() {
             <li>Typescript</li>
             <li>HTML</li>
             <li>CSS</li>
-            <li>Testing (Jest, React Testing Library)</li>
-            <li>Nodejs (Express)</li>
-            <li>MongoDB</li>
+            <li>Testing (Jest, React Testing Library, Cypress)</li>
             <li>Version Control (Git, Github)</li>
+            <li>Nodejs (Express, GraphQL)</li>
+            <li>MongoDB</li>
+            <li>UI/UX Design (Figma, Affinity Designer, Affinity Photo) </li>
           </ul>
         </div>
 

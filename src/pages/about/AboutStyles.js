@@ -6,7 +6,6 @@ const AboutStyles = makeStyles({
     minHeight: "100vh",
     display: "flex",
     justifyContent: "center",
-    // color: "#7B7B7B",
     position: "absolute",
     top: 0,
     zIndex: -1,
@@ -16,7 +15,7 @@ const AboutStyles = makeStyles({
     width: "90%",
     display: "flex",
     flexDirection: "column",
-    fontSize: "1.5rem",
+    fontSize: "1.25rem",
     fontWeight: "400",
     position: "relative",
   },
@@ -29,6 +28,7 @@ const AboutStyles = makeStyles({
       fontWeight: "bold",
     },
   },
+
   skills: {
     marginTop: "3rem",
     "& ul": {
@@ -53,7 +53,7 @@ const AboutStyles = makeStyles({
   cta: {
     marginTop: "4rem",
     "& $cta__text": {
-      fontSize: "2rem",
+      fontSize: "1.5rem",
       fontWeight: "bold",
       // color: "black",
       // color: "#FF8F39",

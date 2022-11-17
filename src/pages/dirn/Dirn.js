@@ -13,14 +13,14 @@ function Dirn() {
   const darkTheme = useSelector((state) => state.theme);
   const darkStyles = { backgroundColor: "#1C1F2E", color: "white" };
   return (
-    <div className={classes.Dirn} style={darkTheme ? darkStyles : {}}>
+    <div className={classes.root} style={darkTheme ? darkStyles : {}}>
       <div className={classes.wrapper}>
         <section className={classes.about}>
           <div className={classes.heading}>
             <h1>Dirn Invoicing</h1>
             <div className={classes.links}>
               <a href="https://dirninvoicing.vercel.app/" target="sitePage">
-                Live
+                Live site
               </a>
               <a
                 href="https://github.com/kofinartey/invoice-app"
@@ -57,16 +57,16 @@ function Dirn() {
               Frontend Mentor
             </a>{" "}
             with the aim of getting a good understanding of the React framework.
-            And I managed to pull it off, I think 🤔. And then came a few
-            studies into the Fetch and making API calls. I did not so bad.
-            However, in order to bring it all together, I needed to have a
-            project of my own that sends some form of data from the frontend to
-            a backend which I have control over. And this curiosity ended up in
-            taking a entire Node Js course. The result of those weeks of study,
-            turned out to be what I call Dirn Invoicing.
+            And I managed to pull it off. And then came a few studies into the
+            Fetch and making API calls. I did not so bad. However, in order to
+            bring it all together, I needed to have a project of my own that
+            sends some form of data from the frontend to a backend which I have
+            control over. And this curiosity ended up in taking a entire Node Js
+            course. The result of those weeks of study, turned out to be what I
+            call Dirn Invoicing.
           </p>
+          <p></p>
           <p>
-            {" "}
             In short, the goal was to really understand how the frontend
             interacts with the backend.
           </p>

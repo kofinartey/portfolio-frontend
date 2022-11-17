@@ -10,9 +10,10 @@ const Styles_project = makeStyles({
   },
   image: {
     width: "100%",
+
     overflow: "hidden",
     position: "relative",
-    cursor: "pointer",
+    // cursor: "pointer",
     display: "flex",
     "& $overlay": {
       width: "100%",
@@ -47,6 +48,7 @@ const Styles_project = makeStyles({
   },
   thumbnail: {
     width: "100%",
+    height: "4rem",
     marginBottom: "1rem",
     boxShadow: "0 5px 20px rgba(0,0,0,0.1)",
   },
@@ -87,6 +89,9 @@ const Styles_project = makeStyles({
   "@media(min-width: 64rem)": {
     Project: {
       maxWidth: "45rem",
+    },
+    image: {
+      height: "14rem",
     },
   },
 });

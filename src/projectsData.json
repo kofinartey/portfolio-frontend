@@ -46,5 +46,53 @@
         "desktop": "/images/audiophile/audiophile-main-desktop.jpg"
       }
     }
+  },
+  {
+    "name": "Product Feedback App",
+    "id": 3,
+    "path": "/product_feedback",
+    "summary": "An interactive product feedback application. Review a product, upvote, and let your opinion be heard. ",
+    "links": {
+      "live": "https://dreamy-khapse-ee9096.netlify.app/",
+      "code": "https://github.com/kofinartey/product-feedback-app"
+    },
+    "stack": ["Typescript", "React", "Redux", "Framer Motion"],
+    "description": "project description",
+    "images": {
+      "process-gif": {
+        "mobile": "/imagees/link",
+        "tablet": "/imagees/link",
+        "desktop": "/imagees/link"
+      },
+      "thumbnail": {
+        "mobile": "/images/thumnail/link",
+        "tablet": "/images/thumnail/link",
+        "desktop": "/images/product_feedback/product_feedback.png"
+      }
+    }
+  },
+  {
+    "name": "Loopstudio Landing Page",
+    "id": 4,
+    "path": "/loopstudio",
+    "summary": "Landing page for a Virtual Reality company",
+    "links": {
+      "live": "https://loopstdios.vercel.app/",
+      "code": "https://github.com/kofinartey/loopstdios"
+    },
+    "stack": ["Typescript", "React", "CSS"],
+    "description": "project description",
+    "images": {
+      "process-gif": {
+        "mobile": "/imagees/link",
+        "tablet": "/imagees/link",
+        "desktop": "/imagees/link"
+      },
+      "thumbnail": {
+        "mobile": "/images/thumnail/link",
+        "tablet": "/images/thumnail/link",
+        "desktop": "/images/loopstudios/loopstudios.jpg"
+      }
+    }
   }
 ]
