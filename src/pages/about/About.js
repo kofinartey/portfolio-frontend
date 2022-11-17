@@ -42,9 +42,10 @@ function About() {
             </p>
             <ul>
               <li>React</li>
+              <li>Next JS</li>
               <li>Redux</li>
-              <li>Javascript</li>
               <li>Typescript</li>
+              <li>Javascript</li>
               <li>HTML</li>
               <li>CSS (Tailwind, Styled Components, Material UI)</li>
               <li>Testing (Jest, React Testing Library, Cypress)</li>
