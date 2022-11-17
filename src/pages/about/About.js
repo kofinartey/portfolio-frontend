@@ -60,11 +60,6 @@ function About() {
             the hours, and I'm curious about learning new things.
           </p>
           <br />
-
-          <p>
-            In a quest to advance my skillset, I'm currently learning{" "}
-            <span>React Native</span> and <span>Electron.</span>
-          </p>
         </div>
 
         <div className={classes.cta}>

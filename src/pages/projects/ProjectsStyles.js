@@ -34,12 +34,14 @@ const ProjectsStyles = makeStyles({
     pluses: {
       position: "absolute",
       right: 0,
-      top: "50vh",
+      bottom: "4rem",
     },
   },
   "@media(min-width: 56rem)": {
     pluses: {
       display: "block",
+      position: "fixed",
+      right: "15%",
     },
   },
   "@media(min-width: 64rem)": {

@@ -36,8 +36,8 @@ function Home() {
             hi there,{" "}
             <span className={classes.name}>
               <Link to="/about">Kofi</Link>{" "}
-              <span style={{ color: darkTheme && "white" }}>here.</span>
             </span>
+            here.
           </motion.p>
           <motion.p
             className={classes.role}

@@ -23,8 +23,9 @@ const HomeStyles = makeStyles({
     position: "relative",
   },
   hi: {
-    fontFamily: "Lora",
+    // fontFamily: "Lora",
     fontSize: "3rem",
+    fontWeight: 300,
   },
   name: {
     fontFamily: "Montserrat",
