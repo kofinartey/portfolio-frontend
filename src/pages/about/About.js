@@ -17,7 +17,7 @@ function About() {
     <div
       className={classes.About}
       style={{
-        color: darkTheme && "white",
+        color: darkTheme ? "white" : "#1C1F2E",
         backgroundColor: darkTheme && "#1C1F2E",
       }}
     >
@@ -28,59 +28,61 @@ function About() {
         transition={{ duration: 1 }}
       >
         <h2 className={classes.heading}>About</h2>
-        <p className={classes.about__intro}>
-          Hi, again. My name is <span>Eugene Nartey Ahulu.</span> I am a
-          frontend developer with a keen interest in building beautiful yet
-          functional web applications.
-        </p>
-
-        <div className={classes.skills}>
-          <p>
-            Since I begun my journey into software development, I have gained
-            experience in:
+        <div style={{ color: darkTheme ? "white" : "#8c8c8c" }}>
+          <p className={classes.about__intro}>
+            Hi, again. My name is <span>Eugene Nartey Ahulu.</span> I am a
+            frontend developer with a keen interest in building beautiful yet
+            functional web applications.
           </p>
-          <ul>
-            <li>React</li>
-            <li>Redux</li>
-            <li>Javascript</li>
-            <li>Typescript</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Testing (Jest, React Testing Library, Cypress)</li>
-            <li>Version Control (Git, Github)</li>
-            <li>Nodejs (Express, GraphQL)</li>
-            <li>MongoDB</li>
-            <li>UI/UX Design (Figma, Affinity Designer, Affinity Photo) </li>
-          </ul>
-        </div>
 
-        <div className={classes.skills}>
-          <p>
-            I believe anything can be achieved through dedication and putting in
-            the hours, and I'm curious about learning new things.
-          </p>
-          <br />
-        </div>
-
-        <div className={classes.cta}>
-          <p className={classes.cta__text}>
-            I am available for job opportunities and new connections.
-          </p>
-          <p>Send me an email or have a look at my resume.</p>
-          <div className={classes.cta__btns}>
-            <Link to="/contact">
-              <Button leftIcon={<EmailOutlinedIcon />}> Email</Button>
-            </Link>
-            <a href={RESUME_URL} target="resumePage  ">
-              <Button leftIcon={<InsertDriveFileOutlinedIcon />}>
-                {" "}
-                Resume
-              </Button>
-            </a>
+          <div className={classes.skills}>
+            <p>
+              Since I begun my journey into software development, I have gained
+              experience in the following technologies:
+            </p>
+            <ul>
+              <li>React</li>
+              <li>Redux</li>
+              <li>Javascript</li>
+              <li>Typescript</li>
+              <li>HTML</li>
+              <li>CSS (Tailwind, Styled Components, Material UI)</li>
+              <li>Testing (Jest, React Testing Library, Cypress)</li>
+              <li>Version Control (Git, Github)</li>
+              <li>Nodejs (Express, GraphQL)</li>
+              <li>MongoDB</li>
+              <li>UI/UX Design (Figma, Affinity Designer, Affinity Photo) </li>
+            </ul>
           </div>
-        </div>
-        <div className={classes.pluses}>
-          <Pluses orientation="vertical" animation={false} />
+
+          <div className={classes.skills}>
+            <p>
+              I believe anything can be achieved through dedication and putting
+              in the hours, and I'm curious about learning new things.
+            </p>
+            <br />
+          </div>
+
+          <div className={classes.cta}>
+            <p className={classes.cta__text}>
+              I am available for job opportunities and new connections.
+            </p>
+            <p>Send me an email or have a look at my resume.</p>
+            <div className={classes.cta__btns}>
+              <Link to="/contact">
+                <Button leftIcon={<EmailOutlinedIcon />}> Email</Button>
+              </Link>
+              <a href={RESUME_URL} target="resumePage  ">
+                <Button leftIcon={<InsertDriveFileOutlinedIcon />}>
+                  {" "}
+                  Resume
+                </Button>
+              </a>
+            </div>
+          </div>
+          <div className={classes.pluses}>
+            <Pluses orientation="vertical" animation={false} />
+          </div>
         </div>
       </motion.div>
     </div>

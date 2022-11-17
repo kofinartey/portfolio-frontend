@@ -51,13 +51,9 @@ const AboutStyles = makeStyles({
   },
 
   cta: {
-    marginTop: "4rem",
     "& $cta__text": {
       fontSize: "1.5rem",
       fontWeight: "bold",
-      // color: "black",
-      // color: "#FF8F39",
-      // fontFamily: "Lora",
       marginBottom: "1rem",
     },
     "& button": {

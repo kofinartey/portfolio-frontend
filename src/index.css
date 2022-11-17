@@ -9,14 +9,6 @@ a:hover {
   text-decoration: none;
   color: unset;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: black;
-}
 
 body {
   margin: 0;
@@ -28,7 +20,7 @@ body {
   /* width: 100%;
   min-width: 375px; */
   font-weight: 400;
-  color: rgb(110, 108, 117);
+  /* color: rgb(110, 108, 117); */
 }
 
 code {
